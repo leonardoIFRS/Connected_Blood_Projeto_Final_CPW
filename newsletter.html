@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Newsletter | Connected Blood</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="cabecalho">
+    <nav class="navbar container" aria-label="Navegação principal">
+      <a class="marca" href="index.html" aria-label="Página inicial do Connected Blood">
+        <span class="marca-simbolo" aria-hidden="true">CB</span>
+        <span>Connected Blood</span>
+      </a>
+
+      <button class="botao-menu" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-principal">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="menu-links" id="menu-principal">
+        <a href="index.html#recursos">Recursos</a>
+        <a href="index.html#bancos">Bancos de sangue</a>
+        <a href="index.html#rotina">Rotina do doador</a>
+        <a class="menu-destaque" href="newsletter.html">Newsletter</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="pagina-formulario">
+    <section class="container layout-formulario">
+      <div class="texto-formulario">
+        <p class="chamada">Newsletter do projeto</p>
+        <h1>Fique por dentro do Connected Blood.</h1>
+        <p>
+          Receba novidades sobre as próximas etapas do aplicativo, recursos planejados e comunicados sobre
+          o desenvolvimento do projeto acadêmico.
+        </p>
+        <div class="imagem-espera imagem-espera-formulario">
+          <span>Imagem para newsletter</span>
+        </div>
+      </div>
+
+      <form class="formulario-cadastro" id="formulario-newsletter" novalidate>
+        <div class="cabecalho-formulario">
+          <h2>Cadastro na newsletter</h2>
+          <p>Preencha os dados abaixo para receber atualizações.</p>
+        </div>
+
+        <div class="grupo-campo">
+          <label for="name">Nome completo</label>
+          <input type="text" id="name" name="name" placeholder="Seu nome" autocomplete="name" required>
+          <small class="mensagem-erro"></small>
+        </div>
+
+        <div class="grupo-campo">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" autocomplete="email" required>
+          <small class="mensagem-erro"></small>
+        </div>
+
+        <div class="grupo-campo">
+          <label for="city">Cidade</label>
+          <input type="text" id="city" name="city" placeholder="Sua cidade" autocomplete="address-level2" required>
+          <small class="mensagem-erro"></small>
+        </div>
+
+        <div class="grupo-campo">
+          <label for="profile">Perfil</label>
+          <select id="profile" name="profile" required>
+            <option value="">Selecione uma opção</option>
+            <option value="doador">Sou doador ou quero doar</option>
+            <option value="banco">Represento um banco de sangue</option>
+            <option value="interessado">Tenho interesse no projeto</option>
+          </select>
+          <small class="mensagem-erro"></small>
+        </div>
+
+        <label class="linha-checkbox">
+          <input type="checkbox" id="consent" name="consent" required>
+          <span>Autorizo o envio de comunicados sobre o Connected Blood para o e-mail informado.</span>
+        </label>
+        <small class="mensagem-erro erro-consentimento"></small>
+
+        <button class="botao botao-principal" type="submit">Enviar cadastro</button>
+        <p class="retorno-formulario" id="retorno-formulario" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container grade-rodape">
+      <p>Connected Blood</p>
+      <p>Projeto acadêmico para conectar doadores e bancos de sangue.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connected Blood | Doadores e bancos de sangue conectados</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="cabecalho">
+    <nav class="navbar container" aria-label="Navegação principal">
+      <a class="marca" href="index.html" aria-label="Página inicial do Connected Blood">
+        <span class="marca-simbolo" aria-hidden="true">CB</span>
+        <span>Connected Blood</span>
+      </a>
+
+      <button class="botao-menu" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-principal">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="menu-links" id="menu-principal">
+        <a href="#recursos">Recursos</a>
+        <a href="#bancos">Bancos de sangue</a>
+        <a href="#rotina">Rotina do doador</a>
+        <a class="menu-destaque" href="newsletter.html">Newsletter</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grade">
+        <div class="hero-conteudo">
+          <p class="chamada">Doação de sangue com informação, rotina e agendamento em um só lugar</p>
+          <h1>Connected Blood</h1>
+          <p class="hero-texto">
+            Um hub entre pessoas doadoras e bancos de sangue da cidade, pensado para facilitar o cadastro,
+            acompanhar a elegibilidade e aproximar quem quer doar de quem precisa receber.
+          </p>
+
+          <div class="lojas" aria-label="Links para lojas de aplicativos">
+            <a class="botao-loja" href="#" aria-label="Baixar na Google Play">
+              <span class="icone-loja" aria-hidden="true">▶</span>
+              <span>
+                <small>Disponível no</small>
+                Google Play
+              </span>
+            </a>
+            <a class="botao-loja" href="#" aria-label="Baixar na App Store">
+              <span class="icone-loja" aria-hidden="true">●</span>
+              <span>
+                <small>Baixar na</small>
+                App Store
+              </span>
+            </a>
+          </div>
+        </div>
+
+        <div class="previa-app" aria-label="Prévia visual do aplicativo">
+          <div class="imagem-espera">
+            <span>Imagem do app</span>
+          </div>
+          <div class="cartao-previa cartao-previa-cima">
+            <strong>Próxima doação</strong>
+            <span>Você estará apto em 12 dias</span>
+          </div>
+          <div class="cartao-previa cartao-previa-baixo">
+            <strong>Demanda alta</strong>
+            <span>Tipo O- no banco central</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao faixa-dados" aria-label="Principais benefícios">
+      <div class="container grade-dados">
+        <div>
+          <strong>Cadastro orientado</strong>
+          <span>Dados básicos e critérios importantes para qualificar o doador.</span>
+        </div>
+        <div>
+          <strong>Bancos próximos</strong>
+          <span>Horário, endereço, demanda, abrangência e canais de agendamento.</span>
+        </div>
+        <div>
+          <strong>Rotina de doação</strong>
+          <span>Histórico, lembretes, orientações e pré-triagem no dia da doação.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao" id="recursos">
+      <div class="container duas-colunas">
+        <div>
+          <p class="rotulo-secao">Para o doador</p>
+          <h2>Menos dúvida, mais segurança para doar.</h2>
+          <p>
+            O Connected Blood ajuda a organizar as informações essenciais antes, durante e depois da doação.
+            O usuário acompanha sua rotina, recebe orientações e consegue verificar se está apto antes de
+            sair de casa.
+          </p>
+        </div>
+
+        <div class="lista-recursos">
+          <article class="cartao-recurso">
+            <span class="numero-recurso" aria-hidden="true">01</span>
+            <h3>Perfil de elegibilidade</h3>
+            <p>Cadastro com dados básicos e informações necessárias para apoiar a qualificação como doador.</p>
+          </article>
+          <article class="cartao-recurso">
+            <span class="numero-recurso" aria-hidden="true">02</span>
+            <h3>Orientações personalizadas</h3>
+            <p>Cuidados para a semana da doação, preparação no dia e indicações de pós-doação.</p>
+          </article>
+          <article class="cartao-recurso">
+            <span class="numero-recurso" aria-hidden="true">03</span>
+            <h3>Pré-triagem rápida</h3>
+            <p>Questionário no dia da doação para indicar se o usuário está elegível naquele momento.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao secao-alternada" id="bancos">
+      <div class="container bloco-dividido">
+        <div class="painel-imagem">
+          <div class="imagem-espera imagem-espera-larga">
+            <span>Imagem de banco de sangue</span>
+          </div>
+        </div>
+
+        <div>
+          <p class="rotulo-secao">Para a cidade</p>
+          <h2>Informações dos bancos de sangue reunidas em uma única busca.</h2>
+          <p>
+            A plataforma apresenta os bancos de sangue da cidade do usuário com dados objetivos para tomada
+            de decisão: funcionamento, localização, demanda atual, área de abrangência e acesso direto ao
+            agendamento.
+          </p>
+          <ul class="lista-checagem">
+            <li>Lista de bancos de sangue próximos ao usuário.</li>
+            <li>Demanda por tipo sanguíneo e prioridade de atendimento.</li>
+            <li>Endereço, horários e informações básicas de funcionamento.</li>
+            <li>Link direto para agendar a doação com o banco escolhido.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao" id="rotina">
+      <div class="container">
+        <div class="cabecalho-secao">
+          <p class="rotulo-secao">Rotina do doador</p>
+          <h2>Uma jornada simples do primeiro cadastro até a próxima doação.</h2>
+        </div>
+
+        <div class="linha-do-tempo">
+          <article>
+            <span>1</span>
+            <h3>Cadastro</h3>
+            <p>O usuário informa dados básicos, cidade, tipo sanguíneo e critérios relevantes para doação.</p>
+          </article>
+          <article>
+            <span>2</span>
+            <h3>Busca</h3>
+            <p>O app mostra bancos disponíveis, demanda local e opções de agendamento.</p>
+          </article>
+          <article>
+            <span>3</span>
+            <h3>Preparação</h3>
+            <p>Orientações ajudam o doador a se preparar na semana e no dia da doação.</p>
+          </article>
+          <article>
+            <span>4</span>
+            <h3>Acompanhamento</h3>
+            <p>O histórico guarda doações passadas e calcula quando o usuário poderá doar novamente.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="chamada-newsletter">
+      <div class="container grade-chamada">
+        <div>
+          <p class="rotulo-secao">Acompanhe o projeto</p>
+          <h2>Receba novidades sobre o Connected Blood.</h2>
+          <p>
+            Cadastre-se para receber atualizações da landing page, do progresso do aplicativo e dos
+            comunicados relacionados ao projeto.
+          </p>
+        </div>
+        <a class="botao botao-claro" href="newsletter.html">Cadastrar na newsletter</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container grade-rodape">
+      <p>Connected Blood</p>
+      <p>Projeto acadêmico para conectar doadores e bancos de sangue.</p>
+21    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
