@@ -43,7 +43,7 @@
             acompanhar a elegibilidade e aproximar quem quer doar de quem precisa receber.
           </p>
 
-          <div class="lojas" aria-label="Links para lojas de aplicativos">
+          <div class="lojas">
             <a class="botao-loja" href="#" aria-label="Baixar na Google Play">
               <span class="icone-loja" aria-hidden="true">▶</span>
               <span>
@@ -61,18 +61,13 @@
           </div>
         </div>
 
-        <div class="previa-app" aria-label="Prévia visual do aplicativo">
-          <div class="imagem-espera">
-            <span>Imagem do app</span>
-          </div>
-          <div class="cartao-previa cartao-previa-cima">
-            <strong>Próxima doação</strong>
-            <span>Você estará apto em 12 dias</span>
-          </div>
-          <div class="cartao-previa cartao-previa-baixo">
-            <strong>Demanda alta</strong>
-            <span>Tipo O- no banco central</span>
-          </div>
+        <div class="previa-app">
+          <div class="imagem-espera" >
+            <video autoplay muted loop>
+              <source src="./img/connected_blood.mp4" type="video/mp4">
+              Seu navegador não suporta vídeos em HTML5.
+          </video>            
+          </div>          
         </div>
       </div>
     </section>
@@ -128,9 +123,9 @@
 
     <section class="secao secao-alternada" id="bancos">
       <div class="container bloco-dividido">
-        <div class="painel-imagem">
+        <div class="painel-imagem previa-app">
           <div class="imagem-espera imagem-espera-larga">
-            <span>Imagem de banco de sangue</span>
+            <img src="img/image1.png" alt="Imagem de um celular sobre uma mesa exibindo o aplicativo connected blood"loading="lazy">
           </div>
         </div>
 
@@ -202,8 +197,12 @@
   <footer class="rodape">
     <div class="container grade-rodape">
       <p>Connected Blood</p>
-      <p>Projeto acadêmico para conectar doadores e bancos de sangue.</p>
-21    </div>
+      <p>Projeto acadêmico para conectar doadores e bancos de sangue.
+        <br>Rafael Teixeira De Abreu
+        <br>Raquele Marin
+        <br>Leonardo Manoel Paredes
+      </p>
+    </div>
   </footer>
 
   <script src="js/script.js"></script>

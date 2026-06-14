@@ -24,7 +24,7 @@ a {
 }
 
 p {
-  color: #aeb8c3;
+  color: #dfe5eb;
   line-height: 1.7;
 }
 
@@ -74,7 +74,7 @@ p {
   display: flex;
   align-items: center;
   gap: 24px;
-  color: #c8d0d8;
+  color: #f3f5f7;
   font-size: 0.95rem;
   font-weight: 600;
 }
@@ -149,7 +149,7 @@ p {
 .chamada,
 .rotulo-secao {
   margin: 0 0 12px;
-  color: #ff5a70;
+  color: #f89da9;
   font-size: 0.78rem;
   font-weight: 800;
   letter-spacing: 0.08em;
@@ -185,7 +185,7 @@ p {
 
 .botao-loja small {
   display: block;
-  color: rgba(255, 255, 255, 0.76);
+  color: #ffffff;
   font-size: 0.72rem;
   font-weight: 600;
 }
@@ -205,7 +205,6 @@ p {
 
 .previa-app {
   position: relative;
-  min-height: 540px;
   padding: 18px;
   border: 1px solid rgba(255, 90, 112, 0.22);
   border-radius: 28px;
@@ -217,46 +216,20 @@ p {
   display: grid;
   min-height: 100%;
   place-items: center;
-  border: 2px dashed rgba(255, 90, 112, 0.42);
   border-radius: 18px;
   color: #ffb3bf;
-  background:
-    linear-gradient(135deg, rgba(216, 36, 63, 0.12), rgba(17, 24, 32, 0.92)),
-    repeating-linear-gradient(45deg, transparent 0 12px, rgba(255, 255, 255, 0.04) 12px 24px);
   font-weight: 800;
   text-align: center;
 }
 
-.cartao-previa {
-  position: absolute;
-  left: -22px;
-  width: min(270px, 74%);
-  padding: 16px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 8px;
-  background: #111820;
-  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.32);
+.imagem-espera > img {
+  width: 100%;
+  border-radius: 18px;
 }
 
-.cartao-previa strong,
-.cartao-previa span {
-  display: block;
-}
-
-.cartao-previa span {
-  margin-top: 4px;
-  color: #aeb8c3;
-  font-size: 0.92rem;
-}
-
-.cartao-previa-cima {
-  top: 76px;
-}
-
-.cartao-previa-baixo {
-  right: -20px;
-  bottom: 74px;
-  left: auto;
+.imagem-espera > video {
+  width: 100%;
+  border-radius: 18px;
 }
 
 .secao {
@@ -291,7 +264,7 @@ p {
 
 .grade-dados span {
   margin-top: 6px;
-  color: rgba(255, 255, 255, 0.66);
+  color: #ffffff;
   line-height: 1.6;
 }
 
@@ -338,12 +311,12 @@ p {
 }
 
 .painel-imagem {
-  min-height: 430px;
+  min-height: 420px;
 }
 
 .imagem-espera-larga,
 .imagem-espera-formulario {
-  min-height: 430px;
+  min-height: 420px;
 }
 
 .lista-checagem {
